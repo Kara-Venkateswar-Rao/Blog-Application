@@ -1,0 +1,28 @@
+.header{
+    display: flex;
+    background-color: #1e1a50;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.header h3{
+    flex: 1;
+}
+
+.header ul{
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li{
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: none;
+    color: aliceblue;
+
+}
+
+.header ul li:hover{
+    color: antiquewhite;
+}
